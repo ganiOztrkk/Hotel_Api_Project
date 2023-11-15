@@ -14,9 +14,17 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI
 build_property._RazorSourceGeneratorDebug = 
+
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Pages/AdminLayout/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW5MYXlvdXQvX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Pages/Staff/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZmYvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
