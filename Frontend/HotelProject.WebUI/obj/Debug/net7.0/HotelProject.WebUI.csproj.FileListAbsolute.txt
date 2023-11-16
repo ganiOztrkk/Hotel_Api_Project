@@ -20,9 +20,7 @@
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.HotelProject.WebUI.props
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.HotelProject.WebUI.props
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/staticwebassets.pack.json
-/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/scopedcss/bundle/HotelProject.WebUI.styles.css
-/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/scopedcss/projectbundle/HotelProject.WebUI.bundle.scp.css
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/HotelProject.WebUI.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/refint/HotelProject.WebUI.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/HotelProject.WebUI.pdb
@@ -403,3 +401,4 @@
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/HotelProject.WebUI.MvcApplicationPartsAssemblyInfo.cs
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Newtonsoft.Json.dll

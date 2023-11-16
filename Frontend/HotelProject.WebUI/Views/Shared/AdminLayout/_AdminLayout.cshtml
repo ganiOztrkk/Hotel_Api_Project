@@ -1,0 +1,24 @@
+@await Html.PartialAsync("HeadPV")
+<body>
+@await Html.PartialAsync("PreLoaderPV")
+<div id="main-wrapper">
+@await Html.PartialAsync("NavHeaderPV")
+@await Html.PartialAsync("HeaderPV")
+@await Html.PartialAsync("SidebarPV")
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@await Html.PartialAsync("FooterPV")
+</div>
+@await Html.PartialAsync("ScriptsPV")
+</body>

@@ -18,6 +18,7 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     </ItemGroup>
 
     <ItemGroup>
@@ -5234,6 +5235,9 @@
       <_ContentIncludedByDefault Remove="wwwroot\adminweb\ui-tab.html" />
       <_ContentIncludedByDefault Remove="wwwroot\adminweb\ui-typography.html" />
       <_ContentIncludedByDefault Remove="wwwroot\adminweb\widgets.html" />
+      <_ContentIncludedByDefault Remove="Views\Home\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Privacy.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\AdminLayout\HeadPV.cshtml" />
     </ItemGroup>
 
 </Project>

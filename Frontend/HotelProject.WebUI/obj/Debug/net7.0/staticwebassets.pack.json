@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/scopedcss/projectbundle/HotelProject.WebUI.bundle.scp.css",
-      "PackagePath": "staticwebassets/HotelProject.WebUI.bundle.scp.css"
-    },
-    {
       "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/adminweb/app-calender.html",
       "PackagePath": "staticwebassets/adminweb/app-calender.html"
     },

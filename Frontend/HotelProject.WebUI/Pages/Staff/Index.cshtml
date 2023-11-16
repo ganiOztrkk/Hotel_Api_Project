@@ -1,8 +1,33 @@
-@model dynamic
+@model List<GetStaffVM>
 
 @{
-    ViewBag.Title = "title";
-    Layout = "/Pages/AdminLayout/_AdminLayout.cshtml";
+    ViewBag.Title = "Index";
+    Layout = "AdminLayout/_AdminLayout";
 }
 
-<h2>title</h2>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Staff Name</th>
+        <th>Staff Title</th>
+        <th>Delete</th>
+        <th>Update</th>
+        <th>Details</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.StaffId</td>
+            <td>@item.Name</td>
+            <td>@item.Title</td>
+            <td><a href="#" class="btn btn-danger">Delete</a></td>
+            <td><a href="#" class="btn btn-warning">Update</a></td>
+            <td><a href="#" class="btn btn-primary">Details</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a asp-controller="Staff" asp-action="AddStaff" class="btn btn-info">New Staff</a>

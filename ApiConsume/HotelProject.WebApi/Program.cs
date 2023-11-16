@@ -1,8 +1,4 @@
-using HotelProject.BusinessLayer.Abstract;
-using HotelProject.BusinessLayer.Concrete;
-using HotelProject.DataAccessLayer.Abstract;
 using HotelProject.DataAccessLayer.Concrete;
-using HotelProject.DataAccessLayer.EntityFramework;
 using HotelProject.WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +7,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<Context>();
 builder.Services.AddControllers();
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(opt =>
+    {
+        opt.AllowAnyHeader()
+            .AllowAnyMethod()
+            .AllowCredentials()
+            .SetIsOriginAllowed(origin => true);
+    });
+});
 
 builder.Services.AddInjections();//extension metodumuz ile inject işlemi
 
@@ -28,6 +34,10 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting();
+
+app.UseCors();
+
 
 app.UseAuthorization();
 

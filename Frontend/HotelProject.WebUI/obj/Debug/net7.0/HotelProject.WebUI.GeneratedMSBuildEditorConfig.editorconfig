@@ -18,28 +18,48 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Pages/AdminLayout/_AdminLayout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW5MYXlvdXQvX0FkbWluTGF5b3V0LmNzaHRtbA==
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Pages/Staff/AddStaff.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZmYvQWRkU3RhZmYuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Pages/Staff/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3RhZmYvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/AdminLayout/FooterPV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0L0Zvb3RlclBWLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/AdminLayout/HeaderPV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0L0hlYWRlclBWLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/AdminLayout/HeadPV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0L0hlYWRQVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/AdminLayout/NavHeaderPV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0L05hdkhlYWRlclBWLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/AdminLayout/PreLoaderPV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0L1ByZUxvYWRlclBWLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/AdminLayout/ScriptsPV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0L1NjcmlwdHNQVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/AdminLayout/SidebarPV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0L1NpZGViYXJQVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/AdminLayout/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0FkbWluTGF5b3V0L19BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/_ViewImports.cshtml]
@@ -49,7 +69,3 @@ build_metadata.AdditionalFiles.CssScope =
 [/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-teikgnsq7o

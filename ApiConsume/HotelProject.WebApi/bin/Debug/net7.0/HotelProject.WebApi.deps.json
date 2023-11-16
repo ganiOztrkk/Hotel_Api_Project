@@ -41,7 +41,6 @@
           "HotelProject.EntityLayer": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.14",
           "Microsoft.AspNetCore.OpenApi": "7.0.11",
-          "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Design": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
@@ -77,7 +76,7 @@
           "Microsoft.AspNetCore.Hosting.Abstractions": "7.0.0.0",
           "Microsoft.AspNetCore.Hosting": "7.0.0.0",
           "Microsoft.AspNetCore.Hosting.Server.Abstractions": "7.0.0.0",
-          "Microsoft.AspNetCore.Html.Abstractions.Reference": "7.0.0.0",
+          "Microsoft.AspNetCore.Html.Abstractions": "7.0.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "7.0.0.0",
           "Microsoft.AspNetCore.Http.Connections.Common": "7.0.0.0",
           "Microsoft.AspNetCore.Http.Connections": "7.0.0.0",
@@ -107,8 +106,8 @@
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "7.0.0.0",
           "Microsoft.AspNetCore.OutputCaching": "7.0.0.0",
           "Microsoft.AspNetCore.RateLimiting": "7.0.0.0",
-          "Microsoft.AspNetCore.Razor.Reference": "7.0.0.0",
-          "Microsoft.AspNetCore.Razor.Runtime.Reference": "7.0.0.0",
+          "Microsoft.AspNetCore.Razor": "7.0.0.0",
+          "Microsoft.AspNetCore.Razor.Runtime": "7.0.0.0",
           "Microsoft.AspNetCore.RequestDecompression": "7.0.0.0",
           "Microsoft.AspNetCore.ResponseCaching.Abstractions": "7.0.0.0",
           "Microsoft.AspNetCore.ResponseCaching": "7.0.0.0",
@@ -935,11 +934,6 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
-        "dependencies": {
-          "System.Text.Encodings.Web": "7.0.0"
-        }
-      },
       "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Razor.Language": "6.0.11",
@@ -985,11 +979,6 @@
           "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Razor/2.2.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Html.Abstractions": "2.2.0"
-        }
-      },
       "Microsoft.AspNetCore.Razor.Language/6.0.11": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
@@ -999,12 +988,6 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Razor.Runtime/2.2.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Html.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Razor": "2.2.0"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
@@ -3156,7 +3139,6 @@
           "HotelProject.DtoLayer": "1.0.0",
           "HotelProject.EntityLayer": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.14",
-          "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
         },
@@ -3171,7 +3153,6 @@
         "dependencies": {
           "HotelProject.EntityLayer": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.14",
-          "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
         },
@@ -3186,7 +3167,6 @@
         "dependencies": {
           "HotelProject.EntityLayer": "1.0.0",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.14",
-          "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
         },
@@ -3200,7 +3180,6 @@
       "HotelProject.EntityLayer/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "7.0.14",
-          "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13"
         },
@@ -3385,7 +3364,7 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Html.Abstractions.Reference/7.0.0.0": {
+      "Microsoft.AspNetCore.Html.Abstractions/7.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Html.Abstractions.dll": {}
         },
@@ -3565,13 +3544,13 @@
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Razor.Reference/7.0.0.0": {
+      "Microsoft.AspNetCore.Razor/7.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Razor.dll": {}
         },
         "compileOnly": true
       },
-      "Microsoft.AspNetCore.Razor.Runtime.Reference/7.0.0.0": {
+      "Microsoft.AspNetCore.Razor.Runtime/7.0.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Razor.Runtime.dll": {}
         },
@@ -5359,13 +5338,6 @@
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
-      "path": "microsoft.aspnetcore.html.abstractions/2.2.0",
-      "hashPath": "microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512"
-    },
     "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -5387,26 +5359,12 @@
       "path": "microsoft.aspnetcore.openapi/7.0.11",
       "hashPath": "microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Razor/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-V54PIyDCFl8COnTp9gezNHpUNHk7F9UnerGeZy3UfbnwYvfzbo+ipqQmSgeoESH8e0JvKhRTyQyZquW2EPtCmg==",
-      "path": "microsoft.aspnetcore.razor/2.2.0",
-      "hashPath": "microsoft.aspnetcore.razor.2.2.0.nupkg.sha512"
-    },
     "Microsoft.AspNetCore.Razor.Language/6.0.11": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-SPjSZIL7JFI5XbVfRMPG/fHLr/xfumSrmN+IOimyIf71WQQ8u2hpaE5+VvpcgjJ5VrJMhfDEhdEAB+Nj/S16dQ==",
       "path": "microsoft.aspnetcore.razor.language/6.0.11",
       "hashPath": "microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Razor.Runtime/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-7YqK+H61lN6yj9RiQUko7oaOhKtRR9Q/kBcoWNRemhJdTIWOh1OmdvJKzZrMWOlff3BAjejkPQm+0V0qXk+B1w==",
-      "path": "microsoft.aspnetcore.razor.runtime/2.2.0",
-      "hashPath": "microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
       "type": "package",
@@ -6798,7 +6756,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Html.Abstractions.Reference/7.0.0.0": {
+    "Microsoft.AspNetCore.Html.Abstractions/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
@@ -6948,12 +6906,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Razor.Reference/7.0.0.0": {
+    "Microsoft.AspNetCore.Razor/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.Razor.Runtime.Reference/7.0.0.0": {
+    "Microsoft.AspNetCore.Razor.Runtime/7.0.0.0": {
       "type": "referenceassembly",
       "serviceable": false,
       "sha512": ""
