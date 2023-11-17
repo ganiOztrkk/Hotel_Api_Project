@@ -1,15 +1,10 @@
+using HotelProject.WebUI.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddHttpClient();//api için eklediğimiz client containeri
 
-builder.Services.AddControllersWithViews()
-    .AddRazorOptions(options =>
-    {
-        options.ViewLocationFormats.Add("/Views/Shared/AdminLayout/{0}.cshtml");
-        options.ViewLocationFormats.Add("/Pages/{1}/{0}.cshtml");
-    }).AddRazorRuntimeCompilation();
-
+builder.Services.AddInjections();
 
 
 var app = builder.Build();
@@ -31,6 +26,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Staff}/{action=Index}/{id?}");
+    pattern: "{controller=Login}/{action=Index}/{id?}");
 
 app.Run();

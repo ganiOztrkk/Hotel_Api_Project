@@ -1,9 +1,19 @@
-<div class="nk-sidebar">           
+<div class="nk-sidebar">
     <div class="nk-nav-scroll">
         <ul class="metismenu" id="menu">
             <li>
-                <a href="widgets.html" aria-expanded="false">
-                    <i class="icon-badge menu-icon"></i><span class="nav-text">Widget</span>
+                <a asp-controller="Staff" asp-action="Index" aria-expanded="false">
+                    <i class="icon-people menu-icon"></i><span class="nav-text">Staff</span>
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Testimonial" asp-action="Index" aria-expanded="false">
+                    <i class="icon-user menu-icon"></i><span class="nav-text">Testimonial</span>
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Service" asp-action="Index" aria-expanded="false">
+                    <i class="icon-support menu-icon"></i><span class="nav-text">Service</span>
                 </a>
             </li>
         </ul>

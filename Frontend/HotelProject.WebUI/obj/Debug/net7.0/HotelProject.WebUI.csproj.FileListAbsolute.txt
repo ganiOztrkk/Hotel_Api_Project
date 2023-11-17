@@ -88,8 +88,6 @@
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.AspNetCore.CookiePolicy.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cors.dll
-/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -182,8 +180,6 @@
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.Extensions.Hosting.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.Extensions.Http.dll
-/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Core.dll
-/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Stores.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.Extensions.Localization.Abstractions.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.Extensions.Localization.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/refs/Microsoft.Extensions.Logging.Abstractions.dll
@@ -402,3 +398,15 @@
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/obj/Debug/net7.0/HotelProject.WebUI.MvcApplicationPartsAssemblyInfo.cs
 /Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/AutoMapper.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.EntityLayer.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.EntityLayer.pdb
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Microsoft.Extensions.Identity.Core.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.DataAccessLayer.dll
+/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/bin/Debug/net7.0/HotelProject.DataAccessLayer.pdb

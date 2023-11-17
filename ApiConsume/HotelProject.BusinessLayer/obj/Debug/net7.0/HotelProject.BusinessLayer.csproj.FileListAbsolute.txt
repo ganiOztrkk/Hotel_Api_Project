@@ -36,8 +36,6 @@
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.AspNetCore.CookiePolicy.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cors.dll
-/Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -130,8 +128,6 @@
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.Extensions.Hosting.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.Extensions.Http.dll
-/Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Core.dll
-/Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.Extensions.Identity.Stores.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.Extensions.Localization.Abstractions.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.Extensions.Localization.dll
 /Users/gani/Desktop/Github/Hotel_Api_Project/ApiConsume/HotelProject.BusinessLayer/bin/Debug/net7.0/refs/Microsoft.Extensions.Logging.Abstractions.dll

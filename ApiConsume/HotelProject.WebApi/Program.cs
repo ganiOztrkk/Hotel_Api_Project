@@ -19,6 +19,8 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddInjections();//extension metodumuz ile inject işlemi
+builder.Services.AddAutoMapper(typeof(Program));
+
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

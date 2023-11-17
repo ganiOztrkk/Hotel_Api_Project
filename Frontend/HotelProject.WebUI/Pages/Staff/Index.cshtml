@@ -23,8 +23,8 @@
             <td>@item.StaffId</td>
             <td>@item.Name</td>
             <td>@item.Title</td>
-            <td><a href="#" class="btn btn-danger">Delete</a></td>
-            <td><a href="#" class="btn btn-warning">Update</a></td>
+            <td><a asp-controller="Staff" asp-action="DeleteStaff" asp-route-id="@item.StaffId" class="btn btn-danger">Delete</a></td>
+            <td><a asp-controller="Staff" asp-action="UpdateStaff" asp-route-id="@item.StaffId" class="btn btn-warning" style="color: white">Update</a></td> 
             <td><a href="#" class="btn btn-primary">Details</a></td>
         </tr>
     }

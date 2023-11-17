@@ -1,0 +1,29 @@
+@model IList<DisplayServiceDto>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "AdminLayout/_AdminLayout";
+}
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Service Title</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ServiceId</td>
+            <td>@item.Title</td>
+            <td><a asp-controller="Service" asp-action="DeleteService" asp-route-id="@item.ServiceId" class="btn btn-danger">Delete</a></td>
+            <td><a asp-controller="Service" asp-action="UpdateService" asp-route-id="@item.ServiceId" class="btn btn-warning">Update</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a asp-controller="Service" class="btn btn-primary">New Service</a>
