@@ -23,6 +23,16 @@ public static class IocExtension
         
         services.AddScoped<ITestimonialDal, EfTestimonialDal>();
         services.AddScoped<ITestimonialService, TestimonialManager>();
+        
+        services.AddScoped<IAboutDal, EfAboutDal>();
+        services.AddScoped<IAboutService, AboutManager>();
+
+        return services;
+    }
+    
+    public static IServiceCollection LibraryInjections(this IServiceCollection services)
+    {
+        services.AddAutoMapper(typeof(Program));
 
         return services;
     }

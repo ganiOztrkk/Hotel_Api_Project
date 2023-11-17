@@ -20861,6 +20861,566 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/LICENSE.txt",
+      "PackagePath": "staticwebassets/hotel-template/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/READ-ME.txt",
+      "PackagePath": "staticwebassets/hotel-template/READ-ME.txt"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/about.html",
+      "PackagePath": "staticwebassets/hotel-template/about.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/booking.html",
+      "PackagePath": "staticwebassets/hotel-template/booking.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/contact.html",
+      "PackagePath": "staticwebassets/hotel-template/contact.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/hotel-template/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/css/style.css",
+      "PackagePath": "staticwebassets/hotel-template/css/style.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/hotel-html-template.jpg",
+      "PackagePath": "staticwebassets/hotel-template/hotel-html-template.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/about-1.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/about-1.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/about-2.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/about-2.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/about-3.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/about-3.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/about-4.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/about-4.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/carousel-1.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/carousel-1.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/carousel-2.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/carousel-2.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/room-1.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/room-1.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/room-2.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/room-2.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/room-3.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/room-3.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/team-1.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/team-1.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/team-2.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/team-2.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/team-3.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/team-3.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/team-4.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/team-4.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/testimonial-1.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/testimonial-1.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/testimonial-2.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/testimonial-2.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/testimonial-3.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/testimonial-3.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/testimonial-4.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/testimonial-4.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/img/video.jpg",
+      "PackagePath": "staticwebassets/hotel-template/img/video.jpg"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/index.html",
+      "PackagePath": "staticwebassets/hotel-template/index.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/js/main.js",
+      "PackagePath": "staticwebassets/hotel-template/js/main.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/animate/animate.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/animate/animate.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/animate/animate.min.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/animate/animate.min.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/counterup/counterup.min.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/counterup/counterup.min.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/tempusdominus/css/tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/tempusdominus/css/tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets/hotel-template/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/tempusdominus/js/moment-timezone.min.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/tempusdominus/js/moment-timezone.min.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/tempusdominus/js/moment.min.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/tempusdominus/js/moment.min.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/tempusdominus/js/tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/tempusdominus/js/tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/waypoints/links.php",
+      "PackagePath": "staticwebassets/hotel-template/lib/waypoints/links.php"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/waypoints/waypoints.min.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/waypoints/waypoints.min.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/wow/wow.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/wow/wow.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/lib/wow/wow.min.js",
+      "PackagePath": "staticwebassets/hotel-template/lib/wow/wow.min.js"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/room.html",
+      "PackagePath": "staticwebassets/hotel-template/room.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_accordion.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_accordion.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_alert.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_alert.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_badge.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_badge.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_button-group.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_button-group.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_buttons.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_buttons.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_card.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_card.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_carousel.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_carousel.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_close.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_close.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_containers.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_containers.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_dropdown.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_forms.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_forms.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_functions.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_functions.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_grid.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_grid.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_helpers.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_helpers.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_images.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_images.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_list-group.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_list-group.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_mixins.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_modal.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_modal.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_nav.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_nav.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_navbar.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_navbar.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_offcanvas.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_offcanvas.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_pagination.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_pagination.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_popover.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_popover.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_progress.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_progress.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_reboot.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_reboot.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_root.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_root.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_spinners.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_spinners.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_tables.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_tables.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_toasts.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_toasts.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_tooltip.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_transitions.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_transitions.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_type.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_type.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_utilities.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_utilities.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/_variables.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/bootstrap-utilities.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_floating-labels.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_floating-labels.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_form-check.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_form-check.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_form-control.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_form-control.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_form-range.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_form-range.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_form-text.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_form-text.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_labels.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/forms/_validation.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/forms/_validation.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/helpers/_clearfix.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/helpers/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/helpers/_colored-links.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/helpers/_colored-links.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/helpers/_position.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/helpers/_position.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/helpers/_ratio.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/helpers/_ratio.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/helpers/_stretched-link.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/helpers/_stretched-link.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/helpers/_text-truncation.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/helpers/_text-truncation.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/helpers/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/helpers/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_color-scheme.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_color-scheme.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_container.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_container.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_deprecate.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_deprecate.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_grid.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_image.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_image.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_lists.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_resize.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_table-variants.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_table-variants.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_transition.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_utilities.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_utilities.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/mixins/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/mixins/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/utilities/_api.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/utilities/_api.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/scss/bootstrap/scss/vendor/_rfs.scss",
+      "PackagePath": "staticwebassets/hotel-template/scss/bootstrap/scss/vendor/_rfs.scss"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/service.html",
+      "PackagePath": "staticwebassets/hotel-template/service.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/team.html",
+      "PackagePath": "staticwebassets/hotel-template/team.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/hotel-template/testimonial.html",
+      "PackagePath": "staticwebassets/hotel-template/testimonial.html"
+    },
+    {
       "Id": "/Users/gani/Desktop/Github/Hotel_Api_Project/Frontend/HotelProject.WebUI/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

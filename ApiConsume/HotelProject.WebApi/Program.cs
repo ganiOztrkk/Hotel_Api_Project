@@ -19,7 +19,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddInjections();//extension metodumuz ile inject işlemi
-builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.LibraryInjections();//extension metod ile dahil ettiğimiz kütüphanelerin servisleri
 
 
 builder.Services.AddEndpointsApiExplorer();

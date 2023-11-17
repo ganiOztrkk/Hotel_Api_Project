@@ -1,0 +1,39 @@
+@{
+    Layout = null;
+}
+
+@await Component.InvokeAsync("_HeadVC")
+<body>
+    <div class="container-xxl bg-white p-0">
+        @await Component.InvokeAsync("_SpinnerVC")
+
+        @await Component.InvokeAsync("_HeaderVC")
+
+        @await Component.InvokeAsync("_CarouselVC")
+
+        @await Component.InvokeAsync("_BookingVC")
+
+        @await Component.InvokeAsync("_AboutVC")
+
+        @await Component.InvokeAsync("_RoomsVC")
+
+        @await Component.InvokeAsync("_VideoVC")
+
+        @await Component.InvokeAsync("_ServicesVC")
+
+        @await Component.InvokeAsync("_TestimonialVC")
+
+        @await Component.InvokeAsync("_TeamVC")
+
+        @await Component.InvokeAsync("_NewsletterVC")
+
+        @await Component.InvokeAsync("_FooterVC")
+
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top">
+            <i class="bi bi-arrow-up"></i>
+        </a>
+        
+    </div>
+    <!-- JavaScript Libraries -->
+    @await Component.InvokeAsync("_ScriptsVC")
+</body>

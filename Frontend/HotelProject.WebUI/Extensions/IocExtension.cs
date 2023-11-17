@@ -16,8 +16,10 @@ public static class IocExtension
         services.AddControllersWithViews()
             .AddRazorOptions(options =>
             {
+                options.ViewLocationFormats.Add("/Pages/{0}.cshtml"); // pages içinde components
                 options.ViewLocationFormats.Add("/Views/Shared/AdminLayout/{0}.cshtml");
                 options.ViewLocationFormats.Add("/Pages/{1}/{0}.cshtml");
+                
             })//view ve layout sayfalarını arama configleri.
             .AddRazorRuntimeCompilation();//runtime degisiklikleri gormek icin lib
         
