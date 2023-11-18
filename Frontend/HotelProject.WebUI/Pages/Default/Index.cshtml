@@ -25,7 +25,9 @@
 
         @await Component.InvokeAsync("_TeamVC")
 
-        @await Component.InvokeAsync("_NewsletterVC")
+        <!--//await Component.InvokeAsync("_NewsletterVC")-->
+        
+        @await Html.PartialAsync("_NewsletterPV")
 
         @await Component.InvokeAsync("_FooterVC")
 
