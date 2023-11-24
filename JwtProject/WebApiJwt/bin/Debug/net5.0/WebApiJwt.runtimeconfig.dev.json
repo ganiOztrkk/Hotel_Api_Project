@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/gani/.dotnet/store/|arch|/|tfm|",
+      "/Users/gani/.nuget/packages"
+    ]
+  }
+}

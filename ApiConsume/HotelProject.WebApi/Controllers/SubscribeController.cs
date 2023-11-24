@@ -1,6 +1,11 @@
-using HotelProject.BusinessLayer.Abstract;
+﻿using HotelProject.BusinessLayer.Abstract;
 using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace HotelProject.WebApi.Controllers
 {
@@ -9,7 +14,6 @@ namespace HotelProject.WebApi.Controllers
     public class SubscribeController : ControllerBase
     {
         private readonly ISubscribeService _subscribeService;
-
         public SubscribeController(ISubscribeService subscribeService)
         {
             _subscribeService = subscribeService;
@@ -18,39 +22,33 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult SubscribeList()
         {
-            //https://{host}/api/Subscribe
-            var subscribes = _subscribeService.GetList();
-            return Ok(subscribes);
+            var values = _subscribeService.TGetList();
+            return Ok(values);
         }
-
         [HttpPost]
         public IActionResult AddSubscribe(Subscribe subscribe)
         {
-            _subscribeService.Insert(subscribe);
+            _subscribeService.TInsert(subscribe);
             return Ok();
         }
-
         [HttpDelete]
         public IActionResult DeleteSubscribe(int id)
         {
-            //https://{host}/api/Subscribe?id=4
-            var subscribe = _subscribeService.GetById(id);
-            _subscribeService.Delete(subscribe!);
+            var values = _subscribeService.TGetByID(id);
+            _subscribeService.TDelete(values);
             return Ok();
         }
-
         [HttpPut]
         public IActionResult UpdateSubscribe(Subscribe subscribe)
         {
-            _subscribeService.Update(subscribe);
+            _subscribeService.TUpdate(subscribe);
             return Ok();
         }
-        
         [HttpGet("{id}")]
         public IActionResult GetSubscribe(int id)
         {
-            var subscribe = _subscribeService.GetById(id);
-            return Ok(subscribe);
+            var values = _subscribeService.TGetByID(id);
+            return Ok(values);
         }
     }
 }

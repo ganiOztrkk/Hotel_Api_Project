@@ -1,113 +1,96 @@
-using System.Text;
-using HotelProject.WebUI.Dtos.Requests.ServiceDto;
-using HotelProject.WebUI.Dtos.Responses.ServiceDto;
-using HotelProject.WebUI.Models.Staff;
+﻿using HotelProject.WebUI.Dtos.ServiceDto;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace HotelProject.WebUI.Controllers;
-
-public class ServiceController : Controller
+namespace HotelProject.WebUI.Controllers
 {
-    // GET
-    private readonly IHttpClientFactory _httpClientFactory;
-
-    public ServiceController(IHttpClientFactory httpClientFactory)
+    public class ServiceController : Controller
     {
-        _httpClientFactory = httpClientFactory;
-    }
-
-    [HttpGet]
-    public async Task<IActionResult> Index()
-    {
-        var client = _httpClientFactory.CreateClient(); // bir client-istemci oluşturduk.
-        var apiResponse =
-            await client.GetAsync(
-                "https://localhost:7095/api/Service"); // istek gönderdiğimiz api adresinden dönen mesajı yakaladık
-        if (apiResponse.IsSuccessStatusCode) // eğer dönen mesajın status code 200 ise
+        private readonly IHttpClientFactory _httpClientFactory;
+        public ServiceController(IHttpClientFactory httpClientFactory)
         {
-            var jsonData =
-                await apiResponse.Content
-                    .ReadAsStringAsync(); //dönen mesajın contentini yani verilerini string olarak okuduk fakat şuan veri json türünde.
-            var services =
-                JsonConvert.DeserializeObject<List<DisplayServiceDto>>(
-                    jsonData); // jsondata ile tuttuğumuz veriyi deserialize ederek list içinde viewmodelimize convert ettik.
-            return View(services); // ilgili listeyi döndük
+            _httpClientFactory = httpClientFactory;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync("http://localhost:3523/api/Service");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<List<ResultServiceDto>>(jsonData);
+                return View(values);
+            }
+            return View();
+        }
+        [HttpGet]
+        public IActionResult AddService()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> AddService(CreateServiceDto createServiceDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(createServiceDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PostAsync("http://localhost:3523/api/Service", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+        public async Task<IActionResult> DeleteService(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.DeleteAsync($"http://localhost:3523/api/Service/{id}");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+        [HttpGet]
+        public async Task<IActionResult> UpdateService(int id)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var responseMessage = await client.GetAsync($"http://localhost:3523/api/Service/{id}");
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var jsonData = await responseMessage.Content.ReadAsStringAsync();
+                var values = JsonConvert.DeserializeObject<UpdateServiceDto>(jsonData);
+                return View(values);
+            }
+            return View();
         }
 
-        return View();
-    }
-
-    [HttpGet]
-    public IActionResult AddService()
-    {
-        return View();
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> AddService(AddServiceDto addServiceDto)
-    {
-        if (!ModelState.IsValid) return View();
-
-        var client = _httpClientFactory.CreateClient();
-        var stringJsonData = JsonConvert.SerializeObject(addServiceDto);
-        StringContent stringContent = new StringContent(stringJsonData, Encoding.UTF8, "application/json");
-        var apiResponse = await client.PostAsync("https://localhost:7095/api/Service", stringContent);
-        
-        if (apiResponse.IsSuccessStatusCode)
-            return RedirectToAction("Index");
-        return View();
-    }
-    
-    public async Task<IActionResult> DeleteService(int id)
-    {
-        //https://{host}/api/Staff?id=4
-        var client = _httpClientFactory.CreateClient();
-        var apiResponse = await client.DeleteAsync($"https://localhost:7095/api/Service?id={id}");
-        if (apiResponse.IsSuccessStatusCode)
+        [HttpPost]
+        public async Task<IActionResult> UpdateService(UpdateServiceDto updateServiceDto)
         {
-            return RedirectToAction("Index");
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            var client = _httpClientFactory.CreateClient();
+            var jsonData = JsonConvert.SerializeObject(updateServiceDto);
+            StringContent stringContent = new StringContent(jsonData, Encoding.UTF8, "application/json");
+            var responseMessage = await client.PutAsync("http://localhost:3523/api/Service/", stringContent);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return View();
         }
-        return View();
-    }
-    
-    [HttpGet]
-    public async Task<IActionResult> UpdateService(int id)
-    {
-        var client = _httpClientFactory.CreateClient();
-        var apiResponse = await client.GetAsync($"https://localhost:7095/api/Service/{id}");
-        if (apiResponse.IsSuccessStatusCode)
-        {
-            var stringJsonData = await apiResponse.Content.ReadAsStringAsync();
-            var service = JsonConvert.DeserializeObject<UpdateServiceDto>(stringJsonData);
-            return View(service);
-        }
-        return View();
-    }
-
-    [HttpPost]
-    public async Task<IActionResult> UpdateService(UpdateServiceDto updateServiceDto)
-    {
-        var client = _httpClientFactory.CreateClient();
-        var serializedStaffModel = JsonConvert.SerializeObject(updateServiceDto);
-        StringContent stringContent = new StringContent(serializedStaffModel, Encoding.UTF8, "application/json");
-        var apiResponse = await client.PutAsync("https://localhost:7095/api/Service", stringContent);
-        if (apiResponse.IsSuccessStatusCode)
-        {
-            return RedirectToAction("Index");
-        }
-        return View();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

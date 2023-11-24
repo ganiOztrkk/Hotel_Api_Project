@@ -1,9 +1,16 @@
-namespace HotelProject.EntityLayer.Concrete;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Service : IEntity
+namespace HotelProject.EntityLayer.Concrete
 {
-    public int ServiceId { get; set; }
-    public string? ServiceIcon { get; set; }
-    public string? Title { get; set; }
-    public string? Description { get; set; }
+    public class Service
+    {
+        public int ServiceID { get; set; }
+        public string ServiceIcon { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+    }
 }

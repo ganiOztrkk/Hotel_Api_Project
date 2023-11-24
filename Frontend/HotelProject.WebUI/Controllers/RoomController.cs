@@ -1,12 +1,16 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace HotelProject.WebUI.Controllers;
-
-public class RoomController : Controller
+namespace HotelProject.WebUI.Controllers
 {
-    // GET
-    public IActionResult Index()
+    public class RoomController : Controller
     {
-        return View();
+        public IActionResult Index()
+        {
+            return View();
+        }
     }
 }

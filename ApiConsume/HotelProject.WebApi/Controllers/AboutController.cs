@@ -1,11 +1,11 @@
+﻿using HotelProject.BusinessLayer.Abstract;
+using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using HotelProject.BusinessLayer.Abstract;
-using HotelProject.EntityLayer.Concrete;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
 
 namespace HotelProject.WebApi.Controllers
 {
@@ -14,48 +14,41 @@ namespace HotelProject.WebApi.Controllers
     public class AboutController : ControllerBase
     {
         private readonly IAboutService _aboutService;
-
         public AboutController(IAboutService aboutService)
         {
             _aboutService = aboutService;
         }
-        
+
         [HttpGet]
         public IActionResult AboutList()
         {
-            //https://{host}/api/Service
-            var abouts = _aboutService.GetList();
-            return Ok(abouts);
+            var values = _aboutService.TGetList();
+            return Ok(values);
         }
-
         [HttpPost]
         public IActionResult AddAbout(About about)
         {
-            _aboutService.Insert(about);
+            _aboutService.TInsert(about);
             return Ok();
         }
-
         [HttpDelete]
         public IActionResult DeleteAbout(int id)
         {
-            //https://{host}/api/Service?id=4
-            var about = _aboutService.GetById(id);
-            _aboutService.Delete(about!);
+            var values = _aboutService.TGetByID(id);
+            _aboutService.TDelete(values);
             return Ok();
         }
-
         [HttpPut]
         public IActionResult UpdateAbout(About about)
         {
-            _aboutService.Update(about);
+            _aboutService.TUpdate(about);
             return Ok();
         }
-        
         [HttpGet("{id}")]
         public IActionResult GetAbout(int id)
         {
-            var about = _aboutService.GetById(id);
-            return Ok(about);
+            var values = _aboutService.TGetByID(id);
+            return Ok(values);
         }
     }
 }

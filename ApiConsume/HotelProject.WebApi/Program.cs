@@ -1,48 +1,26 @@
-using HotelProject.DataAccessLayer.Concrete;
-using HotelProject.WebApi.Extensions;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddDbContext<Context>();
-builder.Services.AddControllers();
-builder.Services.AddCors(options =>
+namespace HotelProject.WebApi
 {
-    options.AddDefaultPolicy(opt =>
+    public class Program
     {
-        opt.AllowAnyHeader()
-            .AllowAnyMethod()
-            .AllowCredentials()
-            .SetIsOriginAllowed(origin => true);
-    });
-});
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
 
-builder.Services.AddInjections();//extension metodumuz ile inject işlemi
-builder.Services.LibraryInjections();//extension metod ile dahil ettiğimiz kütüphanelerin servisleri
-
-
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
 }
-
-app.UseHttpsRedirection();
-app.UseRouting();
-
-app.UseCors();
-
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();

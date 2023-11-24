@@ -1,6 +1,11 @@
-using HotelProject.BusinessLayer.Abstract;
+﻿using HotelProject.BusinessLayer.Abstract;
 using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace HotelProject.WebApi.Controllers
 {
@@ -8,8 +13,8 @@ namespace HotelProject.WebApi.Controllers
     [ApiController]
     public class StaffController : ControllerBase
     {
-        private readonly IStaffService _staffService;
 
+        private readonly IStaffService _staffService;
         public StaffController(IStaffService staffService)
         {
             _staffService = staffService;
@@ -18,39 +23,39 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult StaffList()
         {
-            //https://{host}/api/Staff
-            var staffs = _staffService.GetList();
-            return Ok(staffs);
+            var values = _staffService.TGetList();
+            return Ok(values);
         }
-
         [HttpPost]
         public IActionResult AddStaff(Staff staff)
         {
-            _staffService.Insert(staff);
+            _staffService.TInsert(staff);
             return Ok();
         }
-
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteStaff(int id)
         {
-            //https://{host}/api/Staff?id=4
-            var staff = _staffService.GetById(id);
-            _staffService.Delete(staff!);
+            var values = _staffService.TGetByID(id);
+            _staffService.TDelete(values);
             return Ok();
         }
-
         [HttpPut]
         public IActionResult UpdateStaff(Staff staff)
         {
-            _staffService.Update(staff);
+            _staffService.TUpdate(staff);
             return Ok();
         }
-        
         [HttpGet("{id}")]
         public IActionResult GetStaff(int id)
         {
-            var staff = _staffService.GetById(id);
-            return Ok(staff);
+            var values = _staffService.TGetByID(id);
+            return Ok(values);
+        }
+        [HttpGet("Last4Staff")]
+        public IActionResult Last4Staff()
+        {
+            var values = _staffService.TLast4Staff();
+            return Ok(values);
         }
     }
 }

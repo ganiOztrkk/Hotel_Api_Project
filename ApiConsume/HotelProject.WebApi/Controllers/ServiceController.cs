@@ -1,6 +1,11 @@
-using HotelProject.BusinessLayer.Abstract;
+﻿using HotelProject.BusinessLayer.Abstract;
 using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace HotelProject.WebApi.Controllers
 {
@@ -8,49 +13,42 @@ namespace HotelProject.WebApi.Controllers
     [ApiController]
     public class ServiceController : ControllerBase
     {
-        private readonly IServiceService _ServiceService;
-
-        public ServiceController(IServiceService ServiceService)
+        private readonly IServiceService _serviceService;
+        public ServiceController(IServiceService serviceService)
         {
-            _ServiceService = ServiceService;
+            _serviceService = serviceService;
         }
 
         [HttpGet]
         public IActionResult ServiceList()
         {
-            //https://{host}/api/Service
-            var services = _ServiceService.GetList();
-            return Ok(services);
+            var values = _serviceService.TGetList();
+            return Ok(values);
         }
-
         [HttpPost]
         public IActionResult AddService(Service service)
         {
-            _ServiceService.Insert(service);
+            _serviceService.TInsert(service);
             return Ok();
         }
-
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteService(int id)
         {
-            //https://{host}/api/Service?id=4
-            var service = _ServiceService.GetById(id);
-            _ServiceService.Delete(service!);
+            var values = _serviceService.TGetByID(id);
+            _serviceService.TDelete(values);
             return Ok();
         }
-
         [HttpPut]
         public IActionResult UpdateService(Service service)
         {
-            _ServiceService.Update(service);
+            _serviceService.TUpdate(service);
             return Ok();
         }
-        
         [HttpGet("{id}")]
         public IActionResult GetService(int id)
         {
-            var service = _ServiceService.GetById(id);
-            return Ok(service);
+            var values = _serviceService.TGetByID(id);
+            return Ok(values);
         }
     }
 }

@@ -1,6 +1,11 @@
-using HotelProject.BusinessLayer.Abstract;
+﻿using HotelProject.BusinessLayer.Abstract;
 using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace HotelProject.WebApi.Controllers
 {
@@ -9,7 +14,6 @@ namespace HotelProject.WebApi.Controllers
     public class TestimonialController : ControllerBase
     {
         private readonly ITestimonialService _testimonialService;
-
         public TestimonialController(ITestimonialService testimonialService)
         {
             _testimonialService = testimonialService;
@@ -18,39 +22,33 @@ namespace HotelProject.WebApi.Controllers
         [HttpGet]
         public IActionResult TestimonialList()
         {
-            //https://{host}/api/Testimonial
-            var testimonials = _testimonialService.GetList();
-            return Ok(testimonials);
+            var values = _testimonialService.TGetList();
+            return Ok(values);
         }
-
         [HttpPost]
         public IActionResult AddTestimonial(Testimonial testimonial)
         {
-            _testimonialService.Insert(testimonial);
+            _testimonialService.TInsert(testimonial);
             return Ok();
         }
-
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteTestimonial(int id)
         {
-            //https://{host}/api/Testimonial?id=4
-            var testimonial = _testimonialService.GetById(id);
-            _testimonialService.Delete(testimonial!);
+            var values = _testimonialService.TGetByID(id);
+            _testimonialService.TDelete(values);
             return Ok();
         }
-
         [HttpPut]
         public IActionResult UpdateTestimonial(Testimonial testimonial)
         {
-            _testimonialService.Update(testimonial);
+            _testimonialService.TUpdate(testimonial);
             return Ok();
         }
-        
         [HttpGet("{id}")]
         public IActionResult GetTestimonial(int id)
         {
-            var testimonial = _testimonialService.GetById(id);
-            return Ok(testimonial);
+            var values = _testimonialService.TGetByID(id);
+            return Ok(values);
         }
     }
 }

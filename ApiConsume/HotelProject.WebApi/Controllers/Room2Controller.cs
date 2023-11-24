@@ -1,8 +1,13 @@
-using AutoMapper;
+﻿using AutoMapper;
 using HotelProject.BusinessLayer.Abstract;
-using HotelProject.DtoLayer.Requests.RoomDtos;
+using HotelProject.DtoLayer.Dtos.RoomDto;
 using HotelProject.EntityLayer.Concrete;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace HotelProject.WebApi.Controllers
 {
@@ -12,38 +17,39 @@ namespace HotelProject.WebApi.Controllers
     {
         private readonly IRoomService _roomService;
         private readonly IMapper _mapper;
-
-        public Room2Controller(IMapper mapper, IRoomService roomService)
+        public Room2Controller(IRoomService roomService, IMapper mapper)
         {
-            _mapper = mapper;
             _roomService = roomService;
+            _mapper = mapper;
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            var rooms = _roomService.GetList();
-            return Ok(rooms);
+            var values =  _roomService.TGetList();
+            return Ok(values);
         }
-
         [HttpPost]
-        public IActionResult AddRoom(AddRoomDto addRoomDto)
+        public IActionResult AddRoom(RoomAddDto roomAddDto)
         {
-            if (!ModelState.IsValid) return BadRequest();
-            
-            var room = _mapper.Map<Room>(addRoomDto);
-            _roomService.Insert(room);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            var values = _mapper.Map<Room>(roomAddDto);
+            _roomService.TInsert(values);
             return Ok();
         }
-
         [HttpPut]
         public IActionResult UpdateRoom(UpdateRoomDto updateRoomDto)
         {
-            if (!ModelState.IsValid) return BadRequest();
-
-            var room = _mapper.Map<Room>(updateRoomDto);
-            _roomService.Update(room);
-            return Ok("Successfully Updated");
+            if (!ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            var values = _mapper.Map<Room>(updateRoomDto);
+            _roomService.TUpdate(values);
+            return Ok("Başarıyla Güncellendi");
         }
     }
 }

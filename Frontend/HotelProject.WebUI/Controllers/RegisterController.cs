@@ -1,38 +1,50 @@
-using HotelProject.EntityLayer.Concrete;
-using HotelProject.WebUI.Dtos.Requests.RegisterDto;
+﻿using HotelProject.EntityLayer.Concrete;
+using HotelProject.WebUI.Dtos.RegisterDto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace HotelProject.WebUI.Controllers;
-
-public class RegisterController : Controller
+namespace HotelProject.WebUI.Controllers
 {
-    private readonly UserManager<AppUser> _userManager;
-
-    public RegisterController(UserManager<AppUser> userManager)
+    [AllowAnonymous]
+    public class RegisterController : Controller
     {
-        _userManager = userManager;
-    }
-
-    
-    [HttpGet]
-    public IActionResult Index()
-    {
-        return View();
-    }
-    [HttpPost]
-    public async Task<IActionResult> Index(AddUserDto addUserDto)
-    {
-        if (!ModelState.IsValid) return View();
-        var appUser = new AppUser()
+        private readonly UserManager<AppUser> _userManager;
+        public RegisterController(UserManager<AppUser> userManager)
         {
-            Name = addUserDto.Name,
-            Surname = addUserDto.Surname,
-            Email = addUserDto.Mail,
-            UserName = addUserDto.Username
-        };
-        var addUserResult = await _userManager.CreateAsync(appUser, addUserDto.Password);
-        if (!addUserResult.Succeeded) return View();
-        return RedirectToAction("Index", "Login");
+            _userManager = userManager;
+        }
+        [HttpGet]
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Index(CreateNewUserDto createNewUserDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View();
+            }
+            var appUser = new AppUser()
+            {
+                Name = createNewUserDto.Name,
+                Email = createNewUserDto.Mail,
+                Surname = createNewUserDto.Surname,
+                UserName = createNewUserDto.Username,
+                WorkLocationID = 1
+            };
+            var result = await _userManager.CreateAsync(appUser, createNewUserDto.Password);
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Index", "Login");
+            }
+            return View();
+        }
     }
 }
