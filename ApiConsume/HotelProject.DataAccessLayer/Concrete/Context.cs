@@ -13,7 +13,7 @@ namespace HotelProject.DataAccessLayer.Concrete
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-R7AR1ND;initial catalog=ApiDb;integrated security=true");
+            optionsBuilder.UseSqlServer("@@@@");
         }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Service> Services { get; set; }
